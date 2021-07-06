@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#txt {
+  height: 100vh;
+}
+.text {
+  margin-top: 100px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.title {
+  margin-top: 300px;
+  line-height: 70px;
+}
+span {
+  color: #ff8b30;
+}
+h1 {
+  font-size: 40px;
+}
+.btn a {
+  text-decoration: none;
+  background: linear-gradient(to right, #ff9334, #ff4a0a);
+  padding: 11px 15px;
+  color: #fff;
+  border-radius: 22px;
+  font-weight: 600px;
+}
+.btn a:hover {
+  background: linear-gradient(to left, #ff9334, #ff4a0a);
+  box-shadow: 0 0 3px 2px rgb(182, 181, 181);
+}
